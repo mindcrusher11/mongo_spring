@@ -4,6 +4,8 @@ I have implemented apis based on requirement given ,I have used Java,Spring boot
 
 http://localhost:8080/api/birds GET request if records are there then it willl return data bd status 200 OK if not then NOT found exception.
 
+http://localhost:8080/api/birds/{id} GET request will retrieve matching record ,if does not exist then NOT found exception.
+
 http://localhost:8080/api/birds/{id} Delete request will delet matching record ,if does not exist then NOT found exception.
 
 http://localhost:8080/api/birds POST request will save data into mongodb.
